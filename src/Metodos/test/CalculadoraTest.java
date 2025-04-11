@@ -10,6 +10,6 @@ public class CalculadoraTest {
         calculadora.subtraiDoisNumeros();
         System.out.println("---");
         // precisa de dois argumentos para executar
-        calculadora.multiplicaDoisNumeros(12,7);
+        calculadora.multiplicaDoisNumeros(1,1);
     }
 }
