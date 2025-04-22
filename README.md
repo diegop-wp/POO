@@ -21,7 +21,7 @@ Além disso, estou documentando as minhas experiências e exemplos para facilita
 
 Este repositório abrange os seguintes tópicos:
 
-- **Classes e Objetos**  
+- **classes e Objetos**  
   - O ponto de partida da POO. Como criar e usar objetos em Java.
   
 - **Encapsulamento**  

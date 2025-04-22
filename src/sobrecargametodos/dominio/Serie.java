@@ -6,6 +6,10 @@ public class Serie {
     private String nome;
     private String genero;
 
+    public Serie(){
+
+    }
+
 
     public void init (String nome, String tipo , int ep ){
     this.nome = nome;

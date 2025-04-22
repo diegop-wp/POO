@@ -1,4 +1,4 @@
-package Classes.dominio;
+package classes.dominio;
 
 public class ImpressoraCarro {
     public void imprime (Carro carro){

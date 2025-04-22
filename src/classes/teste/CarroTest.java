@@ -1,7 +1,7 @@
-package Classes.teste;
+package classes.teste;
 
-import Classes.dominio.Carro;
-import Classes.dominio.ImpressoraCarro;
+import classes.dominio.Carro;
+import classes.dominio.ImpressoraCarro;
 
 public class CarroTest {
     public static void main(String[] args) {
