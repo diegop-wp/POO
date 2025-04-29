@@ -5,12 +5,22 @@ public class Serie {
     private int ep;
     private String nome;
     private String genero;
+    private String estudio;
 
     public Serie(int ep, String genero, String nome, String tipo) {
+        this();
         this.ep = ep;
         this.genero = genero;
         this.nome = nome;
         this.tipo = tipo;
+    }
+    public Serie(int ep, String genero, String nome, String tipo, String estudio){
+        this(ep,genero,nome,tipo);
+        this.estudio = estudio;
+    }
+
+    public Serie(){
+      return;
     }
 
     public void imprime(){
@@ -18,6 +28,7 @@ public class Serie {
         System.out.println(this.tipo);
         System.out.println(this.genero);
         System.out.println(this.ep);
+        System.out.println(this.estudio);
     }
 
     public int getEp() {
