@@ -7,6 +7,10 @@ public class Programa {
 
         Filme filme = new Filme();
 
+        for (int episodio: filme.getEp()) {
+            System.out.print(episodio + " ");
+        }
+
 
     }
 }
