@@ -2,7 +2,7 @@ package blocosinicialiazacao.dominio;
 
 public class Filme {
     private String nome;
-    private int [] ep  = {1, 2, 3, 4, 5, 6, 7, 8};
+    private static  int  [] ep  = {1, 2, 3, 4, 5, 6, 7, 8};
     {
         System.out.println("dentro bloco de inicialização");
         ep  = new int[100];
@@ -16,7 +16,7 @@ public class Filme {
 
     public Filme() {
 
-        for (int eps : this.ep){
+        for (int eps : Filme.ep){
             System.out.print(eps+" ");
         }
         System.out.println();
